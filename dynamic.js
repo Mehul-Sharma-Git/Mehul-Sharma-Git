@@ -8,6 +8,8 @@ let hoveringInterest=function(event1,event2){
         this.style.transition="1s"
         document.getElementById(event2).style.color="#FFFFFF"
         document.getElementById(event2).style.transition="1s"
+        this.style.width="75px"
+        this.style.height="75px"
 
    }
    document.getElementById(event1).onmouseout=function(){
@@ -15,6 +17,8 @@ let hoveringInterest=function(event1,event2){
         this.style.transition="1s"
         document.getElementById(event2).style.color="#D1434F"
         document.getElementById(event2).style.transition="1s"
+        this.style.width="70px"
+        this.style.height="70px"
    }
 }
 hoveringInterest("hover1","text1")
