@@ -5,7 +5,7 @@ body{
 }
 #main-background{
 
-    background:url(https://images.pexels.com/photos/957285/watzmann-sunset-alpine-berchtesgaden-alps-957285.jpeg?auto=compress&cs=tinysrgb&h=800&w=1500);
+    background:url(https://p0.pikist.com/photos/316/330/sunset-mountain-silhouette-horizon-fading-light-twilight-dusk-last-light-evening.jpg);
 }
 #main-navigation{
      
@@ -64,7 +64,7 @@ body{
 #foottags{
     list-style:none;
     display:flex;
-    margin-left:100px;
+    margin-left:90px;
 }
 .tags{
     padding: 20px;
@@ -138,7 +138,7 @@ body{
 }
 #skills{
 
-    background-color: #252D40;
+    background-color: #1B212E;
     padding:20px;
     padding-bottom:40px;
 
@@ -292,7 +292,7 @@ body{
 
 #interests{
     padding: 50px 0;
-    background-color: #1B212E;
+    background-color: #252D40;
 }
 #interest-lists{
     display:inline-block;
@@ -308,7 +308,7 @@ body{
     display: inline-block;
     margin: 10px 10px 10px 10px;
     padding: 30px 30px 30px 30px; 
-    background-color: #252D40;
+    background-color: #1B212E;
     border-radius: 10px;
 }
 .int-data{
@@ -365,7 +365,7 @@ footer{
 #top{
     position:relative;
     bottom:145px;
-    right: 290px;
+    right: 295px;
     width: 60px;
     height: 60px;
     background: #D1434F;

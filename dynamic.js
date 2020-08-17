@@ -13,7 +13,7 @@ let hoveringInterest=function(event1,event2){
 
    }
    document.getElementById(event1).onmouseout=function(){
-        this.style.backgroundColor="#252D40"
+        this.style.backgroundColor="#1B212E"
         this.style.transition="1s"
         document.getElementById(event2).style.color="#D1434F"
         document.getElementById(event2).style.transition="1s"
