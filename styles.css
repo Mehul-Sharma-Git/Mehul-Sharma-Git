@@ -313,7 +313,7 @@ body{
 }
 .int-data{
     
-    padding-left:12px;
+    text-align:center;
     color:white;
     font-size: 18px;
     margin:auto;
@@ -387,4 +387,7 @@ footer{
     text-decoration:none;
     color:white;
     
+}
+.fas{
+    padding:0 0 10px 3px;
 }
