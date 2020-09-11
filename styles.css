@@ -12,13 +12,11 @@ body{
     width:100%;
     position: fixed;
     display: flex;
-
    
 }
 #navigation{
-    text-align: right;
-    margin:0 0 0 450px;
-    padding: 20px 0 0 0;
+    list-style: none;
+    width: 90%;
     
 }
 #headname{
@@ -34,10 +32,13 @@ body{
 .head-nav{
     background:none;
     border:none;
-    font-size: 16px;
+    font-size: 20px;
     color:white;
     padding:10px;
     border-radius: 5px;
+    float: right;
+
+
 }
 
 #name{
@@ -61,14 +62,10 @@ body{
     margin-left:190px;
 
 }
-#foottags{
-    list-style:none;
-    display:flex;
-    margin-left:90px;
-}
 .tags{
-    padding: 20px;
+    display:inline-block;
     margin: 10px;
+    padding: 20px;
     border-radius: 50%;
     
 }
@@ -91,7 +88,7 @@ body{
 }
 #about-image
 {
-    width: 470px;
+    width: 520px;
     height:530px;
 }
 .link-images{
@@ -102,39 +99,33 @@ body{
 
 #details{
     display:flex;
-    padding: 100 100 100 100; 
+    margin: 0 auto;
+    width: 450px;
 }
 
 
 .lists1{
-    border: 1px;
-    border-color: #D1434F;
-    border-style: solid;
     font-size:14px;
-    margin:0 0 0 20px ;
-    border-right:none;
-    padding:5px;
-    border-radius: 2px;
-    
+    border: 2px solid #d1434F;
+    border-right: none;
 }
 .lists2{
-    border: 1px;
-    border-color:#D1434F;
-    border-style: solid;
+    border: 2px solid #d1434f;
     font-size:14px;
-    border-left:none;
-    padding-right: 10px;
-    padding:5px;
-    border-radius: 2px;
+    border-left: none;
+}
+.list-type{
+    list-style: none;
+    position:relative;
+    right: 16px;
 }
 #resumebutton{
-    border-style: solid;
     background: #D1434F;
-    padding: 10px;
-    margin: 10px 0 0 180px;
+    padding: 2px;
+    margin: 10px auto;
     border-radius: 5px;
-    
-
+    width :100px;
+    text-align: center;;
 }
 #skills{
 
@@ -144,10 +135,7 @@ body{
 
 }
 .skilltype{
-    margin:20px 0 0 40px;
-    display:inline-block;
-
-
+    margin:0 auto;
 }
 
 .progressbar{
@@ -295,11 +283,11 @@ body{
     background-color: #252D40;
 }
 #interest-lists{
-    display:inline-block;
     list-style: none;
-    
+    width: 800px;
     padding: 50px;
     padding-left: 100px;
+    margin : 0 auto;
 }
 
 .int-list{
@@ -332,15 +320,15 @@ body{
     text-align:left;
     
     
+}.flexer{
+    display: flex;
 }
 #education,#workEx{
-    display:inline-block;
-    margin: 10px 10px 10px 30px;
+    margin: 100px auto;
     text-align:center;
-
-    
 }
 footer{
+    margin : 0 auto;
     padding:100px;
     text-align: center;
     background-color:#1B212E;
@@ -363,20 +351,19 @@ footer{
 }
 
 #top{
-    position:relative;
-    bottom:145px;
-    right: 295px;
+    position: relative;
     width: 60px;
     height: 60px;
+    bottom: 240px;
     background: #D1434F;
     text-align: center;
-    line-height: 40px;
+    line-height: 20px;
     border-radius: 50px;
     font-weight: 600;
     letter-spacing: 0px;
-    font-size: 15px;
     color:white;
-    font-size:80px;
+    font-size:60px;
+    margin: 0 auto;
 }
 #topbutton{
     margin:0;
@@ -388,6 +375,10 @@ footer{
     color:white;
     
 }
-.fas{
-    padding:0 0 10px 3px;
+
+#foottags{
+    position: relative;
+    right: 20px;
+    list-style: none;
+    margin : 0 auto;
 }
