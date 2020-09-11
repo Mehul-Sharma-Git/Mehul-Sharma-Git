@@ -327,11 +327,20 @@ body{
     margin: 100px auto;
     text-align:center;
 }
+#blogs{
+    background: #1B212E;
+}
+#content{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
 footer{
     margin : 0 auto;
     padding:100px;
     text-align: center;
-    background-color:#1B212E;
+    background-color:#252d40;
 }
 
 .white{
