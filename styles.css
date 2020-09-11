@@ -376,7 +376,7 @@ footer{
     
 }
 
-#foottags{
+#foottags,#footlinks{
     position: relative;
     right: 20px;
     list-style: none;
